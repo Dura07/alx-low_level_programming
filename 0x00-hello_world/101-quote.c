@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - A c program that prints a line to the stsndard error
- * Return 1 (Success)
+ * main - A c program that prints a exact line followed by a new line to the stsndard error
+ *Return 1 (Success)
  */
 int main(void)
 {
