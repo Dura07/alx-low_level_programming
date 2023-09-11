@@ -1,17 +1,19 @@
 #include <stdio.h>
-
 /**
  * main - main function
  *
  * Return: always 0
+ *
  */
-
 int main(void)
 {
-	char x:
+	char i = 'a';
 
-	for (x = 'a' ; x <= 'z' ; x++)
-		putchar(x);
-	putchar('\n')
-	return (0)
+	while (i <= 'z')
+	{
+		putchar(i);
+		i++
+	}
+	putchar('\n');
+	return (0);
 }
