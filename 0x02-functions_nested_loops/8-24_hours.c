@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * jack bauer - Prints every minute of the day of Jack Bauer
+ * main - Prints every minute of the day of Jack Bauer
  * Return: This function does not return a value (void).
  */
 
-void jack_bauer(void)
-
+void main(void)
 {
 	int a, b, c, d;
 
