@@ -1,11 +1,16 @@
 #include "main.h"
 
 /**
- * main - Prints every minute of the day of Jack Bauer
- * Return: This function does not return a value (void).
+ * jack_bauer - Prints every minute of the day of Jack Bauer
+ *
+ * Description: This function prints all the minutes in a 24-hour day
+ * in the format HH:MM, where HH represents the hour (00-23)
+ * and MM represents the minute (00-59).
+ * Return: This function does not return a value (void)
  */
 
-void main(void)
+void jack_bauer(void)
+
 {
 	int a, b, c, d;
 
