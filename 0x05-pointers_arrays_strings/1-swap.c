@@ -4,7 +4,8 @@
  * @a: integer to swap
  * @b: integer to swap
  */
-voidd swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
+/* the function that swaps the values of two integers. */
 {
 	int m;
 
