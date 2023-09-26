@@ -2,19 +2,12 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: always 0
+ * set_string - sets the value of a pointer to a char
+ * @s: pointer to pointer
+ * @to: pointer char
  */
 
-int main(void)
+void set_string(char **s, char *to)
 {
-	char *s0 = "Bob Dylan";
-	char *s1 = "Rebert Allen";
-
-	printf("%s, %s\n", s0, s1);
-	set_string(&s1, s0);
-	printf("%s, %s\n", s0, s1);
-	return (0);
+	*s = to;
 }
-
