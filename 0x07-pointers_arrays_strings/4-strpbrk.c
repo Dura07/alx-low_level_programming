@@ -7,7 +7,6 @@
  * @accept: input
  * Return: alwasy 0 (success)
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int i, n;
