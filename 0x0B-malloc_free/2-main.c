@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-    char *s;
+    char *S;
 
-    s = str_concat("Betty ", "Holberton");
-    if (s == NULL)
+    S = str_concat("Betty ", "Holberton");
+    if (S == NULL)
     {
         printf("failed\n");
         return (1);
     }
-    printf("%s\n", s);
-    free(s);
+    printf("%s\n", S);
+    free(S);
     return (0);
 }
