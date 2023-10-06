@@ -32,5 +32,5 @@ char *_strdup(char *str)
 	}
 
 	S[a] = '\0';
-	return(S);
- }
+	return (S);
+}
