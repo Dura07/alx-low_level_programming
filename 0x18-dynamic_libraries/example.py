@@ -1,18 +1,9 @@
 # example.py
 
 import ctypes
+import os
 
-libexample = ctypes.CDLL('./libexample.so')
+current_directory = os.path.dirname(os.path.abspath(__file__))
 
-libexample.add.argtypes = [ctypes.c_int, ctypes.c_int]
-libexample.add.restype = ctypes.c_int
-
-libexample.multiply.argtypes = [ctypes.c_int, ctypes.c_int]
-libexample.multiply.restype = ctypes.c_int
-
-result_add = libexample.add(3, 5)
-print(f"Result of add function: {result_add}")
-
-result_multiply = libexample.multiply(3, 5)
-print(f"Result of multiply function: {result_multiply}")
+libexample = ctypes.CDLL(os.path.join(current_directory, 'libexample.so'))
 
